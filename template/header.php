@@ -13,11 +13,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   </head>
   <body>
-      <div class="container-fluid bg-warning">
+      <div class="container-fluid bg-primary mb-5">
           <div class="row">
               <div class="col-md">
                   <header class="py-3">
-                      <h3 class="text-center">Sistema de Matriculas</h3>
+                      <h2 class="text-center text-light">Sistema de Matriculas</h2>
                   </header>
               </div>
           </div>

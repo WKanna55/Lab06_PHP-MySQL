@@ -15,12 +15,12 @@
     //print_r($persona);
 ?>
 
-<div class="container mt-5">
+<div class="container mt-5 mb-5">
     <div class="row justify-content-center">
-        <div class="col-md-4">
-            <div class="card">
+        <div class="col-md-8">
+            <div class="card m-5">
                 <div class="card-header">
-                    Editar datos:
+                    <h3>Editar datos:</h3>
                 </div>
                 <form class="p-4" method="POST" action="editarProceso.php">
                     <div class="mb-3">
@@ -69,7 +69,7 @@
                         value="<?php echo $alumno->grado; ?>">
                     </div>
                     <div class="d-grid">
-                        <input type="hidden" name="codigo" value="<?php echo $persona->id; ?>">
+                        <input type="hidden" name="codigo" value="<?php echo $alumno->id; ?>">
                         <input type="submit" class="btn btn-primary" value="Editar">
                     </div>
                 </form>
