@@ -34,8 +34,6 @@
                 }
             ?>   
             
-            
-
             <?php 
                 if(isset($_GET['mensaje']) and $_GET['mensaje'] == 'error'){
             ?>

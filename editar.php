@@ -15,10 +15,10 @@
     //print_r($persona);
 ?>
 
-<div class="container mt-5 mb-5">
+<div class="container mt-1 mb-5">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card m-5">
+            <div class="card">
                 <div class="card-header">
                     <h3>Editar datos:</h3>
                 </div>
@@ -52,21 +52,6 @@
                         <label class="form-label">Direccion: </label>
                         <input type="text" class="form-control" name="txtDireccion" autofocus required
                         value="<?php echo $alumno->direccion; ?>">
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label">Fecha de Nacimiento: </label>
-                        <input type="date" class="form-control" name="txtFechaNacimiento" autofocus required
-                        value="<?php echo $alumno->fecha_nacimiento; ?>">
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label">Fecha de Inscripcion: </label>
-                        <input type="date" class="form-control" name="txtFechaInscripcion" autofocus required
-                        value="<?php echo $alumno->fecha_inscripcion; ?>">
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label">Grado: </label>
-                        <input type="number" class="form-control" name="txtGrado" autofocus required
-                        value="<?php echo $alumno->grado; ?>">
                     </div>
                     <div class="d-grid">
                         <input type="hidden" name="codigo" value="<?php echo $alumno->id; ?>">
